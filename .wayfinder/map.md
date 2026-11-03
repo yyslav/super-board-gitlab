@@ -30,6 +30,8 @@ No implementation happens inside this map.
 
 ## Decisions so far
 
+- [What can a gitlab.com Free board express?](tickets/001-gitlab-free-board-capabilities.md): lanes = mutually exclusive labels; multi-repo = one group board; no custom fields/blocking on Free; budget 100 req/min
+
 ## Not yet specified
 
 - Config and forge detection: how a project declares or auto-detects GitLab, and what changes in the config schema.
