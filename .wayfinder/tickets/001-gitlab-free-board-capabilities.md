@@ -15,3 +15,4 @@ What does gitlab.com Free give us to rebuild super-board's GitHub Projects v2 bo
 - assignees (single on Free?), linked issues / blocking, weights, milestones, iterations
 - the REST and GraphQL APIs to read and move cards; gitlab.com rate limits
 Mark each item Free / Premium-only, citing primary docs.
+Findings: .wayfinder/research/gitlab-free-board-capabilities.md (branch research/gitlab-free-board-capabilities)
