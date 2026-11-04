@@ -12,4 +12,13 @@ Provision the access later tickets need to verify against real APIs:
 - create a sandbox gitlab.com group with two projects (needed to test a multi-repo board)
 - `glab auth login` with the required scopes
 
-Record the URLs and where credentials live.
+Then verify these facts live on Free and record the results:
+- issue GraphQL `relativePosition` matches the manual board-list order
+- whether `issueMoveList` is available
+- the real `glab ... -F json` shapes for issue and MR view/list
+- `/-/raw/` access on a private project
+- `glab mr ready` idempotency
+- `per_page` max
+- the rate-limit headers returned
+
+Record the URLs, where credentials live, and the verified facts.

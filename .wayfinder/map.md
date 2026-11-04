@@ -28,6 +28,7 @@ No implementation happens inside this map.
 - [How does each gh operation map to glab/GitLab API?](tickets/002-gh-to-glab-operation-mapping.md): no --json selector → adapter maps fields; merge with --auto-merge=false + verify; approvals advisory on Free; api scope
 - [Where is super-board coupled to GitHub?](tickets/003-github-coupling-inventory.md): 3 layers (≈25 exec files, ≈27 prose files, data-model); Projects v2 hardest; funnels exist but bypassed; churn high in funnels → stable verb adapter
 - [Where does the forge seam go?](tickets/004-adapter-seam.md): hard fork, GitLab-only, no upstream sync; glab everywhere; gitlab-read.py keeps funnel contract; GitLab-native fields; rewrite in place
+- [How are lanes and card fields modelled on GitLab Free?](tickets/005-lane-model-on-gitlab.md): plain lane:* labels (Backlog=no label, Done=closed); group or project board; only lane:* labels touched; claim = own account + loop:in-*
 - [How do skill instructions stop naming gh?](tickets/009-forge-neutral-skill-prose.md): prose rewritten in place to glab + gitlab-read.py --kind
 
 ## Not yet specified
