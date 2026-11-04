@@ -20,3 +20,4 @@ For every `gh` operation super-board uses, what is the GitLab Free equivalent (`
 - approvals on Free
 - auth scopes
 Output a mapping table with gap notes.
+Findings: .wayfinder/research/gh-to-glab-operation-mapping.md (branch research/gh-to-glab-operation-mapping)
