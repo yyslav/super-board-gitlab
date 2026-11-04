@@ -32,6 +32,7 @@ No implementation happens inside this map.
 
 - [What can a gitlab.com Free board express?](tickets/001-gitlab-free-board-capabilities.md): lanes = mutually exclusive labels; multi-repo = one group board; no custom fields/blocking on Free; budget 100 req/min
 - [How does each gh operation map to glab/GitLab API?](tickets/002-gh-to-glab-operation-mapping.md): no --json selector → adapter maps fields; merge with --auto-merge=false + verify; approvals advisory on Free; api scope
+- [Where is super-board coupled to GitHub?](tickets/003-github-coupling-inventory.md): 3 layers (≈25 exec files, ≈27 prose files, data-model); Projects v2 hardest; funnels exist but bypassed; churn high in funnels → stable verb adapter
 
 ## Not yet specified
 
