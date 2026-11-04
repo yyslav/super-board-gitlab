@@ -2,7 +2,7 @@
 title: Where does the forge seam go?
 label: wayfinder:grilling
 status: open
-assignee: 
+assignee: yaroslav.y
 blocked_by: [002, 003]
 ---
 ## Question
