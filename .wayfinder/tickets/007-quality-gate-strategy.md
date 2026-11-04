@@ -2,7 +2,7 @@
 title: How do we prove the port did not degrade the factory?
 label: wayfinder:grilling
 status: open
-assignee: 
+assignee: yaroslav.y
 blocked_by: [004]
 ---
 ## Question
