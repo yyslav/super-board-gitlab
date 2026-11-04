@@ -2,7 +2,7 @@
 title: How are lanes and card fields modelled on GitLab Free?
 label: wayfinder:grilling
 status: open
-assignee: 
+assignee: yaroslav.y
 blocked_by: [001, 003]
 ---
 ## Question
