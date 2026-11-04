@@ -2,7 +2,7 @@
 title: Provision the GitHub fork and a gitlab.com sandbox
 label: wayfinder:task
 status: open
-assignee: 
+assignee: yaroslav.y
 blocked_by: []
 ---
 ## Question
