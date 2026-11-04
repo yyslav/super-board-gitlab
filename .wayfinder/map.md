@@ -30,6 +30,7 @@ No implementation happens inside this map.
 - [Where does the forge seam go?](tickets/004-adapter-seam.md): hard fork, GitLab-only, no upstream sync; glab everywhere; gitlab-read.py keeps funnel contract; GitLab-native fields; rewrite in place
 - [How are lanes and card fields modelled on GitLab Free?](tickets/005-lane-model-on-gitlab.md): plain lane:* labels (Backlog=no label, Done=closed); group or project board; only lane:* labels touched; claim = own account + loop:in-*
 - [How do we prove the port did not degrade the factory?](tickets/007-quality-gate-strategy.md): upstream baseline first; tests 1:1 + dropped-behaviours ledger; one stateful glab fake from sandbox recordings; e2e smoke on 2-project group; evals ≥ baseline over 3 runs
+- [Provision the GitHub fork and a gitlab.com sandbox](tickets/008-provision-fork-and-sandbox.md): fork yyslav/super-board-gitlab; sandbox group yaroslav-sb-sandbox; verified board order=relativePosition, move by label edit, 100 req/min live, per_page 100
 - [How do skill instructions stop naming gh?](tickets/009-forge-neutral-skill-prose.md): prose rewritten in place to glab + gitlab-read.py --kind
 
 ## Not yet specified
