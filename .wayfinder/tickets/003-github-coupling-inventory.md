@@ -14,3 +14,4 @@ Inventory every GitHub coupling in super-board v3.3.0:
 - which evals touch the forge
 
 Also check git history: how often have these call sites changed across releases? That decides how painful upstream syncs will be.
+Findings: .wayfinder/research/github-coupling-inventory.md (branch research/github-coupling-inventory)
