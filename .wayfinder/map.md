@@ -31,12 +31,14 @@ No implementation happens inside this map.
 ## Decisions so far
 
 - [What can a gitlab.com Free board express?](tickets/001-gitlab-free-board-capabilities.md): lanes = mutually exclusive labels; multi-repo = one group board; no custom fields/blocking on Free; budget 100 req/min
+- [How does each gh operation map to glab/GitLab API?](tickets/002-gh-to-glab-operation-mapping.md): no --json selector → adapter maps fields; merge with --auto-merge=false + verify; approvals advisory on Free; api scope
 
 ## Not yet specified
 
 - Config and forge detection: how a project declares or auto-detects GitLab, and what changes in the config schema.
 - Onboard flow: rework its "GitHub" step into a forge step (auth scopes, board creation on GitLab).
-- `ui-refine-loop` / `pr-shots`: hosting screenshots on GitLab, including raw URLs in private projects and whether images render in MR descriptions.
+- `ui-refine-loop` / `pr-shots`: hosting screenshots on GitLab. Raw URLs in private projects need a token, so project uploads look likely (see the mapping ticket).
+- Comment and note bodies: sanitise GitLab quick actions (`/merge`, `/close`) in agent-written text.
 - `pr-security-review` on MR diffs: the base/merge-base semantics.
 - `super-collect` bug sources and `/to-tickets` creating GitLab issues.
 - Stop/resume comments and the assignee mutex under GitLab rate limits.
