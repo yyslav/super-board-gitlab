@@ -4,11 +4,10 @@ label: wayfinder:map
 ---
 ## Destination
 
-A hand-off-ready spec for porting super-board to gitlab.com Free, alongside the unchanged GitHub path. It covers:
-- the forge adapter interface
-- a GitHub→GitLab mapping for each operation
-- the test and quality-gate strategy
-- the upstream-sync routine
+A hand-off-ready spec for a GitLab-only hard fork of super-board on gitlab.com Free. It covers:
+- a per-file rewrite plan (gh → glab, GitLab-native fields)
+- the lane/board model on GitLab
+- the test and quality-gate strategy that proves behaviour matches upstream
 
 No implementation happens inside this map.
 
